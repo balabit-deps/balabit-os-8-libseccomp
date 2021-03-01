@@ -10,7 +10,8 @@ Build-Depends: debhelper-compat (= 12),
                python3-all-dev:any <!nopython>,
                libpython3-all-dev <!nopython>,
                cython3:native <!nopython>,
-               valgrind [amd64 arm64 armhf i386 mips mips64 powerpc ppc64 ppc64el s390x] <!nocheck>
+               valgrind [amd64 arm64 armhf i386 mips mips64 powerpc ppc64 ppc64el s390x] <!nocheck>,
+               gperf
 Rules-Requires-Root: no
 Standards-Version: 3.9.7
 Homepage: https://github.com/seccomp/libseccomp
