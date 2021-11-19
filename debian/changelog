@@ -1,3 +1,9 @@
+libseccomp (2.5.1-1ubuntu1~20.04.2) focal-security; urgency=medium
+
+  * No change rebuild in the -security pocket.
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Fri, 19 Nov 2021 06:48:11 -0500
+
 libseccomp (2.5.1-1ubuntu1~20.04.1) focal; urgency=medium
 
   * Updated to new upstream 2.5.1 version for updated syscalls support
